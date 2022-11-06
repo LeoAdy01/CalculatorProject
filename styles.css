@@ -22,6 +22,7 @@ body{
 }
 
 .delete{
+    background-color: rgb(128, 70, 194);
     color: black;
     font-size: 25px;
     padding: 18px;
@@ -33,6 +34,10 @@ body{
     border: none;
     cursor: pointer;
     border: 2px solid black;
+}
+
+.delete:hover{
+    background-color: rgb(114, 45, 194);
 }
 
 .clear{
