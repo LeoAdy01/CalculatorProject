@@ -6,27 +6,43 @@
         <meta charset="UTF-8">
     </head>
     <body>
-        <div class="calculator center">
-            <button class="delete">DELETE</button>
-            <button class="clear">CLEAR</button>
-            <button class="nr zero">0</button>
-            <button class="nr one">1</button>
-            <button class="nr two">2</button>
-            <button class="nr three">3</button>
-            <button class="nr four">4</button>
-            <button class="nr five">5</button>
-            <button class="nr six">6</button>
-            <button class="nr seven">7</button>
-            <button class="nr eight">8</button>
-            <button class="nr nine">9</button>
-            <button class="nr sum">+</button>
-            <button class="nr substract">-</button>
-            <button class="nr equal">=</button>
-            <button class="nr divide">%</button>
-            <button class="nr multiply">X</button>
-            <button class="nr punct">.</button>
-        </div>
-        <div></div>
+        <div class="calcBody">
+            <div class="px-8 py-8">
+              <div class="flex mb-1 justify-end">
+                <div class="output">
+                  <div class="previousNumber"></div>
+                  <div class="currentNumber">0</div>
+                </div>
+                <button class="clear">AC</button>
+              </div>
+              <div class="flex mb-1">
+                <button class="number">7</button>
+                <button class="number">8</button>
+                <button class="number">9</button>
+                <button class="operator">/</button>
+              </div>
+              <div class="flex mb-1">
+                <button class="number">4</button>
+                <button class="number">5</button>
+                <button class="number">6</button>
+                <button class="operator">x</button>
+              </div>
+              <div class="flex mb-1">
+                <button class="number">1</button>
+                <button class="number">2</button>
+                <button class="number">3</button>
+                <button class="operator">-</button>
+              </div>
+              <div class="flex mb-1">
+                <button class="decimal">.</button>
+                <button class="number">0</button>
+                <button class="equal">=</button>
+                <button class="operator">+</button>
+              </div>
+            </div>
+          </div>
+        <footer>COPYRIGHT © 2022 LeoAdy01</footer>
     </body>
     <script src="javascript.js"></script>
+    <script src="style.js"></script>
 </html>
