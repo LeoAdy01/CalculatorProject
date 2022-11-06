@@ -21,25 +21,6 @@ body{
     top: 110px;
 }
 
-.delete{
-    background-color: rgb(128, 70, 194);
-    color: black;
-    font-size: 25px;
-    padding: 18px;
-    position: absolute;
-    top: 155px;
-    left: 51.7%;
-    width: 180px;
-    border-radius: 7px;
-    border: none;
-    cursor: pointer;
-    border: 2px solid black;
-}
-
-.delete:hover{
-    background-color: rgb(114, 45, 194);
-}
-
 .clear{
     background-color: #FF686B;
     border: none;
@@ -48,8 +29,8 @@ body{
     padding: 18px;
     position: absolute;
     top: 155px;
-    left: 8.7%;
-    width: 180px;
+    left: 8%;
+    width: 372px;
     border-radius: 5px;
     cursor: pointer;
     border: 2px solid black;
@@ -63,7 +44,7 @@ body{
     cursor: pointer;
 }
 
-.zero, .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .sum, .substract, .punct, .equal, .divide, .multiply{
+.zero, .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .sum, .substract, .decimal, .equal, .divide, .multiply{
     padding: 30px;
     width: 80px;
     height: 90px;
@@ -71,7 +52,7 @@ body{
     border: 2px solid black;
 }
 
-.punct{
+.decimal{
     position: absolute;
     top: 83%;
     left: 8%;
@@ -180,8 +161,16 @@ body{
 
 .currentNumber{
     position: absolute;
-    left: 84%;
-    font-size: 5rem;
+    left: 4%;
+    top: 20%;
+    font-size: 4rem;
+}
+
+.previousNumber{
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    font-size: 1.3rem;
 }
 
 footer{
