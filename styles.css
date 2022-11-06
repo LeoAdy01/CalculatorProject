@@ -12,6 +12,7 @@ body{
     background-color: #878c8f;
     height: 700px;
     width: 450px;
+    border: 2px solid black;
 }
 
 .center{
@@ -25,11 +26,13 @@ body{
     font-size: 25px;
     padding: 18px;
     position: absolute;
-    top: 180px;
+    top: 155px;
     left: 51.7%;
     width: 180px;
     border-radius: 7px;
     border: none;
+    cursor: pointer;
+    border: 2px solid black;
 }
 
 .clear{
@@ -39,8 +42,122 @@ body{
     font-size: 25px;
     padding: 18px;
     position: absolute;
-    top: 180px;
+    top: 155px;
     left: 8.7%;
     width: 180px;
     border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.clear:hover{
+    background-color: #ff575a;
+}
+
+.nr{
+    cursor: pointer;
+}
+
+.zero, .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .sum, .substract, .punct, .equal, .divide, .multiply{
+    padding: 30px;
+    width: 80px;
+    height: 90px;
+    font-size: 25px;
+    border: 2px solid black;
+}
+
+.punct{
+    position: absolute;
+    top: 83%;
+    left: 8%;
+}
+
+.zero{
+    position: absolute;
+    top: 83%;
+    left: 30%;
+}
+
+.equal{
+    position: absolute;
+    top: 83%;
+    left: 52%;
+}
+
+.sum{
+    position: absolute;
+    top: 83%;
+    left: 74%;
+}
+
+.one{
+    position: absolute;
+    top: 67%;
+    left: 8%;
+}
+
+.two{
+    position: absolute;
+    top: 67%;
+    left: 30%;
+}
+
+.three{
+    position: absolute;
+    top: 67%;
+    left: 52%;
+}
+
+.substract{
+    position: absolute;
+    top: 67%;
+    left: 74%;
+}
+
+.four{
+    position: absolute;
+    top: 51%;
+    left: 8%;
+}
+
+.five{
+    position: absolute;
+    top: 51%;
+    left: 30%;
+}
+
+.six{
+    position: absolute;
+    top: 51%;
+    left: 52%;
+}
+
+.multiply{
+    position: absolute;
+    top: 51%;
+    left: 74%;
+}
+
+.seven{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+
+.eight{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+
+.nine{
+    position: absolute;
+    top: 35%;
+    left: 52%;
+}
+
+.divide{
+    position: absolute;
+    top: 35%;
+    left: 74%;
 }
